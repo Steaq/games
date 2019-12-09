@@ -42,3 +42,15 @@
 	height: 32px;
 	font-size: 20px;
 }
+
+
+#clsicon {
+	display: none;
+	height: 30px;
+	width: 30px;
+	overflow: hidden;
+}
+#clsicon i {
+	font-size: 28px;
+	color: white;
+}
