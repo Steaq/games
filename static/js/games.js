@@ -1,5 +1,6 @@
 // выполняется когда документ полностью
 // загрузился
+
 $(document).ready(function () {
 
 	var navbarTogglerIcon = '#nticon';
@@ -12,6 +13,12 @@ $(document).ready(function () {
 	$(clsicon).on('click', function () {
 		$(navbarTogglerIcon).css('display', 'block');
 		$(clsicon).css('display', 'none');
+	});
+
+	$('#footer_logo').on('click', function (e) {
+		e.preventDefault();
+		window.scrollTo({top: 0, behavior: 'smooth'});
+		return false;
 	});
 
 });
