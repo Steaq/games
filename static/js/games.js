@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 	$('#footer_logo').on('click', function (e) {
 		e.preventDefault();
-		window.scrollTo({top: 0, behavior: 'smooth'});
+		$('html, body').animate({scrollTop: '0px'}, 300);
 		return false;
 	});
 
