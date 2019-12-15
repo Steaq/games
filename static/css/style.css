@@ -3,6 +3,27 @@
 		height: 400px;
 	}
 }
+@media (max-width:768px) {
+	.carousel-item {
+		height: 280px;
+	}
+	.carousel-item img {
+		min-height: 280px;
+	}
+	.carousel-caption h1 {
+		font-size: 24px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+	}
+}
+
+.carousel-item {
+	background: #000000;
+}
+.carousel-item img {
+	opacity: .8;
+}
 
 .bg-dark {
 	background-color: #212121 !important;
