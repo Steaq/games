@@ -76,19 +76,19 @@
           <!-- Use figure for a more semantic html -->
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-            <a href="https://unsplash.it/1200/900/?image=702" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+            <a href="https://unsplash.it/1200/900/?image=702" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl" class="thumblink">
               <!-- Thumbnail -->
               <img src="https://unsplash.it/400/300/?image=702" itemprop="thumbnail" alt="Image description">
             </a>
           </figure>
 
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="https://unsplash.it/1200/900/?image=695" data-caption="Sunset in the wheat field<br><em class='text-muted'>© Jordan McQueen</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+            <a href="https://unsplash.it/1200/900/?image=695" data-caption="Sunset in the wheat field<br><em class='text-muted'>© Jordan McQueen</em>" data-width="1200" data-height="900" itemprop="contentUrl" class="thumblink">
               <img src="https://unsplash.it/400/300/?image=695" itemprop="thumbnail" alt="Image description">
             </a>
           </figure>
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="https://unsplash.it/1200/900/?image=675" data-caption="Mysterious ocean<br><em class='text-muted'>© Barn Images</em>" data-width="1200" data-height="900" itemprop="contentUrl">
+            <a href="https://unsplash.it/1200/900/?image=675" data-caption="Mysterious ocean<br><em class='text-muted'>© Barn Images</em>" data-width="1200" data-height="900" itemprop="contentUrl" class="thumblink">
               <img src="https://unsplash.it/400/300/?image=675" itemprop="thumbnail" alt="Image description">
             </a>
           </figure>
@@ -261,7 +261,7 @@
 		        container.push(item);
 		      });
 		      // Define click event on gallery item
-		      $('a').click(function(event){
+		      $('.thumblink').click(function(event){
 		        // Prevent location change
 		        event.preventDefault();
 		        // Define object and gallery options
