@@ -76,6 +76,10 @@
 	color: white;
 }
 
+h1#header_title {
+	font-size: 99px;
+}
+
 
 /*
 	Thumbnail sizes:;
