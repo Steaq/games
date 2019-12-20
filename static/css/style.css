@@ -80,6 +80,12 @@ h1#header_title {
 	font-size: 99px;
 }
 
+.pswp__caption__center {text-align: center;}
+figure {
+  display: inline-block;
+  width: 33.333%;
+  float: left;
+}
 
 /*
 	Thumbnail sizes:;
