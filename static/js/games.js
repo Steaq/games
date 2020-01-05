@@ -37,9 +37,9 @@ $(document).ready(function () {
 	var searchGames = new Bloodhound({
 	  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
 	  queryTokenizer: Bloodhound.tokenizers.whitespace,
-	  prefetch: 'http://api.gamesportal.com/search.json',
+	  prefetch: 'http://api.gamesportal.com/search.json?t=game',
 	  remote: {
-	    url: 'http://api.gamesportal.com/search.json?q=%QUERY',
+	    url: 'http://api.gamesportal.com/search.json?t=game&q=%QUERY',
 	    wildcard: '%QUERY'
 	  }
 	});
